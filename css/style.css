@@ -1,0 +1,103 @@
+/* Main*/
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: sans-serif;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Body css*/
+.main {
+	width: 642px;
+	height: 809px;
+	margin: 0 auto;
+}
+.heading {
+	background: #222731;
+}
+.heading > h1 {
+	color: #F29822;
+	text-align: center;
+	padding: 5%;
+	margin: 0;
+}
+.content {
+	position: relative;
+	min-height: 680px;
+	background-image: url("../assets/bg.jpg");
+	background-repeat:  no-repeat;
+}
+.bg {
+	height: 680px;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(128,128,128,0.5);
+}
+.holder {
+	margin-top: 15%;
+}
+.main-in {
+	font-size: 24px;
+	text-align: center;
+}
+.main-in:not(.main-center) {
+	padding-top: 10%;
+}
+.details {
+	text-align: center;
+}
+.follow {
+	margin: 40px auto;
+	color: #EC9524;
+	font-size: 1.5em;
+	padding: 10px;
+	width: 200px;
+	line-height: 50px;
+	border-radius: 50px;
+	background: #3B3E45;
+	font-weight: bold;
+	border: none;
+}
+.deals > img {
+	color: #ff0000;
+}
+
+/*Footer css starts*/
+.footer {
+	bottom: 0;
+	width: 100%;
+	min-height: 50px;
+	position: absolute;
+	background: rgba(87, 91, 90, 0.5);
+}
+.footer > div {
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 27px;
+}
+.footer > div:not(:last-child) {
+	border-right: 2px solid #e2e2e2;
+}
+.f-content-img {
+	width: 48%;
+	float: left;
+	text-align: right;
+}
+.f-content {
+	width: 48%;
+	float: right;
+	text-align: left;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.f-sub {
+	color: #ccc;
+	font-size: 18px;
+}
